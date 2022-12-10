@@ -10,7 +10,7 @@ def send_message_otp(phone_number, message=None):
 	ihsun@tuta.io
 	"""
 	api = KavenegarAPI(settings.SMS_API_KEY)	# Import Your API_KEY.
-	sms_sender = settings.SMS_SENDER			    # Import Your Sender. (PhoneNumber)
+	sms_sender = settings.SMS_SENDER		# Import Your Sender. (PhoneNumber)
 	
 	msg = message if message is not None else generate_otp()
 
