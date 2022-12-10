@@ -19,6 +19,6 @@ def send_message_otp(phone_number, message=None):
 		'receptor': phone_number,
 		'message' : msg,
 	}
- 
+	
 	response = api.sms_send(params)
 	print(response.text)
