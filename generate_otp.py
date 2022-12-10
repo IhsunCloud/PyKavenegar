@@ -10,7 +10,7 @@ def generate_otp(password_len=6):
 	"""
 	passwd_len = password_len
 	DIGITS = '0123456789'
-	OTP	= ''
+	OTP = ''
 	
 	for number in range(passwd_len) :
 		OTP += DIGITS[math.floor(random.random() * 10)]
