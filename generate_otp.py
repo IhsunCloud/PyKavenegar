@@ -4,9 +4,9 @@ import random
 
 def generate_otp(password_len=6):
 	"""
-		Reusable function to generate an OTP password.
+	Reusable function to generate an OTP password.
 		
-		ihsun@tuta.io
+	ihsun@tuta.io
 	"""
 	passwd_len = password_len
 	DIGITS = '0123456789'
